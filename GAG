@@ -1,0 +1,6 @@
+if not script_key or script_key == "" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Skibidiking123/Module/refs/heads/main/KeyUI"))()
+else
+script_key = script_key
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/100eb8744b24f1eae9c7b5fb04c0048c.lua"))()
+end
